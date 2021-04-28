@@ -1,0 +1,235 @@
+*{
+    margin:0;
+    padding: 0;
+    border:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: linear-gradient(45deg, #0a60a6, #17b3df);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    max-width: 200vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.logo {
+    display:flex;
+    align-content: center;
+}
+.logo a{
+    text-decoration: none;
+}
+
+.logo img{
+    width: 160px;
+    margin-bottom: 1rem;
+}
+
+main.container {
+    background: white;
+    max-width: 415px;
+    min-height: 40vh;
+    padding: 1rem 2rem 2rem 2rem;
+    border-radius: 45px;
+    margin-bottom: 5vh;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(98, 193, 231);
+    color:rgb(37, 36, 36)
+}
+
+header img::before{
+    content:'';
+    position: absolute;
+    background: #1b5ae0;
+    height: 1.5px;
+    width: 210px;
+    bottom: -15px;
+    left: -6vh;
+    border-radius: 5px    
+}
+
+main .cabecalho span{
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+
+main .cabecalho span.fys{
+    color: #3e78f5;
+    font-weight: 700;
+    font-size: 12px;
+    position: relative;
+}
+
+
+main .cabecalho span.fys::before{
+    content:'';
+    position: absolute;
+    background: #1b5ae0;
+    height: 1.5px;
+    width: 210px;
+    bottom: -15px;
+    left: -6vh;
+    border-radius: 5px    
+}
+
+main .cabecalho span.ts{
+    color: #52555a;
+    font-weight: 700;
+    font-size: 12px;
+    text-align: end;
+}
+
+
+
+main .caution{
+    background-color: rgb(245, 238, 238);
+    background-origin: border-box;
+    min-width: 10px;
+    padding: 0.5rem 1rem;
+    border: 0.7px solid rgb(148, 140, 140);
+    border-radius: 5px;
+    margin-top: 7vh;
+    margin-bottom: 5vh;
+}
+
+main .caution .message{
+    font-size: 13px;
+}
+
+main .signin h2{
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+}
+
+main .signin span{
+    font-size: 13px;
+}
+
+main .asteristico{
+    font-size: 15px;
+    color: red
+}
+
+main .asteris {
+    margin-top: 2vh;
+    text-align: center;
+    font-size: 13px;
+    color: lightslategrey;
+}
+
+main .email{
+    margin-top: 3vh;
+    font-size: 13px;
+}
+
+main .email input{
+    height: 7vh;
+    width: 100%;
+    border: 0.2px solid rgb(170, 168, 168);
+    border-radius: 5px;
+    margin-bottom: 3vh;
+    padding: 0.5rem;
+}
+
+main .password{
+    font-size: 13px;
+}
+
+main .password input{
+    height: 7vh;
+    width: 100%;
+    border: 0.2px solid rgb(170, 168, 168);
+    border-radius: 5px;
+    margin-bottom: 3vh;
+    padding: 0.5rem;
+}
+
+main .forgot {
+    margin-top: -2vh;
+    text-align: right;
+    font-size: 11px;
+    color: lightslategrey;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+}
+main .botao{
+    text-align: center;
+}
+main input[type='submit']{
+    padding: 0.4rem;
+    background: linear-gradient(to left, #0a60a6, #17b3df);
+    cursor: pointer;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 50px;
+    text-align: center;
+    width: 15vh;
+    height: 8vh;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+main input[type='submit']:hover {
+    letter-spacing: 0.5px;
+    background: linear-gradient(to right, #0a60a6, #17b3df);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+main .footer{
+    margin-top: 4vh;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+}
+
+
+.pagefooterone a {
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+    font-size: 13px;
+    padding: 2vh;
+    text-align: center;
+}
+
+.pagefootertwo a {
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 2vh;
+    margin-left: 23vh;
+}
+
+
+
+.rodape .fstpart{
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(197, 202, 209);
+    font-size: 11px;
+}
+
+.rodape .sndpart{
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(197, 202, 209);
+    font-size: 9px;
+    margin-bottom: 3vh;
+}
